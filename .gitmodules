@@ -1,0 +1,3 @@
+[submodule "scripts/sphero_mini_lib"]
+	path = scripts/sphero_mini_lib
+	url = https://github.com/MProx/Sphero_mini.git

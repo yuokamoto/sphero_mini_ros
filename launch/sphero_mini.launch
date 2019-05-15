@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="uuid" default="" />
+    <node pkg="sphero_mini_ros" name="tello" type="sphero_mini.py" output="screen"/>
+</launch>
