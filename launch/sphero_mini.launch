@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <launch>
-    <arg name="uuid" default="" />
-    <node pkg="sphero_mini_ros" name="tello" type="sphero_mini.py" output="screen"/>
+    <arg name="mac" default="C5:AB:0E:0F:74:D9" />
+    <node pkg="sphero_mini_ros" name="sphero_mini" type="sphero_mini.py" output="screen">
+    	<param name="mac" value="$(arg mac)"/>
+    </node>
 </launch>
